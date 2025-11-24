@@ -5,7 +5,7 @@
 
 ## Key Enclave Functions
 * **Attestation**: A mechanism to verify the trustworthiness of another Enclave/platform (Local or Remote).
-![RA](images/remove_Attestation.png)
+![RA](images/remote_Attestation.png)
 * **Sealing**: The ability to encrypt/decrypt data for storage, ensuring it can only be accessed by the Enclave itself.
 
 ## Application and Tools
