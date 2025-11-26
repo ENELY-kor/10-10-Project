@@ -1,12 +1,12 @@
 # 10-10-Project
 Enclave (TEE), Attestation / Sealing, Anonymized Location Comparison
 * **Enclave (Trusted Execution Environment, TEE)**: A protected region (TCB, Trusted Computing Base) created within the CPU to safeguard sensitive code/data from external attacks (e.g., OS, malicious software).
-![Enclave](images/enclave.png)
+![Enclave](images/enc_model.png)
 * **Communication**: Secure communication between the Enclave interior and the exterior (Host OS) is achieved through E-Call (External → Internal) and O-Call (Internal → External).
 
 ## Key Enclave Functions
 * **Attestation**: A mechanism to verify the trustworthiness of another Enclave/platform (Local or Remote).
-![RA](images/remote_Attestation.png)
+![RA](images/enc_com_model.png)
 * **Sealing**: The ability to encrypt/decrypt data for storage, ensuring it can only be accessed by the Enclave itself.
 
 ## Application and Tools
